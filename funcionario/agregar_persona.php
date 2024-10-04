@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $ci = $_POST['ci'];
     $rol = $_POST['rol'];
 
-    // Aquí debes agregar la consulta para insertar en la base de datos
+
     $consulta = "INSERT INTO Persona (nombre, apellidos, ci, rol) VALUES ('$nombre', '$apellidos', '$ci', '$rol')";
     if ($conexion->query($consulta) === TRUE) {
         header("Location: funcionario.php?mensaje=Persona agregada con éxito.");

@@ -48,15 +48,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <title>Editar Cuenta</title>
     <style>
         body {
-            background-color: #f8f9fa; /* Color de fondo */
+            background-color: #f8f9fa; 
         }
         .edit-container {
-            max-width: 600px; /* Ancho máximo del formulario */
-            margin: 100px auto; /* Centrar verticalmente y horizontalmente */
+            max-width: 600px;
+            margin: 100px auto; 
             padding: 20px;
-            background-color: white; /* Fondo blanco para el formulario */
-            border-radius: 8px; /* Bordes redondeados */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para efecto de elevación */
+            background-color: white; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
         }
     </style>
 </head>
